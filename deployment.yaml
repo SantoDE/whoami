@@ -4,6 +4,7 @@ metadata:
   name: whoami
   annotations:
     dapr.io/enabled: "true"
+    dapr.io/app-id: "whoami"
 spec:
   replicas: 1
   selector:
