@@ -5,6 +5,7 @@ metadata:
   annotations:
     dapr.io/enabled: "true"
     dapr.io/app-id: "whoami"
+    dapr.io/app-port: "80"
 spec:
   replicas: 1
   selector:
